@@ -1,0 +1,218 @@
+body{
+
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+img{
+    width: 100%;
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+header{
+   
+    
+    color: white;
+    align-items: center;
+    padding: 20px 50px;
+    background-image: url(../images/dawn.jpg);
+    background-color: rgba(0, 0, 0, 0.541);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+}
+.logo{}
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+.logo h3{
+    font-size: 25px;
+    margin: 0;
+    text-transform: capitalize;
+
+}
+.logo h3 span{
+    font-weight: 500;
+
+}
+.navbar{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{display: inline;
+}
+nav ul li{
+    display: inline;
+    margin: 24px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+
+}
+.banner{
+    text-align: center;
+    padding: 100px;
+}
+    .banner h3{
+    font:25px;
+    font-style: italic;
+    margin-bottom: 10px;
+    
+}
+.banner-image{
+    display: flex;
+}
+.banner span{
+    background-color: red;
+    height: 6px;
+    width: 190px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.banner h1{
+    font-size: 70px;
+}
+.banner button{
+    padding:15px 30px;
+    font-size : 18px;
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+}
+/* Event section */
+.upcoming-event{
+    text-align: center;
+  
+
+}
+
+.upcoming-event h2{
+font-size: 40px;
+text-transform: capitalize;
+margin-bottom: 0px;
+}
+.upcoming-event span {
+    background-color: red;
+    height: 6px;
+    width: 190px;
+    border-radius: 5px;
+    display: inline-block;  
+
+}
+.event{
+    display:flex
+    
+    margin: 30px 0 0 0;
+
+}
+.event-item{
+   flex: 50%;
+    padding: 5px;
+}
+.event-item h4{
+    font-size: 22px;
+    margin: 10px 0 0 0;
+}
+
+.event-item p{}
+.event-item a{
+    font-size: 19px;
+    color: red;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+/* ==== explore ==== */
+.explore-main{
+    background-image: url(../images/father.jpg);
+    background-position: center;
+    background-color: rgba(0, 0, 255, 0.288);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+
+}
+.explore{
+    padding: 100px;
+    display: flex;
+}
+.explore-item{
+    width: 50%;
+}
+.explore-item h1{
+    font-size: 70px;
+    margin: 0  0 10px 0;
+}
+.explore-item span {
+    background-color: red;
+    height: 6px;
+    width: 190px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.explore-item p {
+    margin: 30px 0;
+}
+.explore-item a { 
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+/* tour */
+.tour{
+    padding : 20px;
+    display: grid;
+    grid-template-columns: 450px  repeat(3,1fr);
+    grid-gap: 30px;
+
+}
+.tour-item{ 
+    font-size: 50px;
+}
+.tour-item h5{
+    font-size: 25px;
+    margin-top: 0 0 0 0;
+
+}
+.tour-item span{}
+.tour-item p{}
+.tour-item a{}
+.tour-item img{ 
+    width:1oo% ;
+}
+
+footer{
+    padding: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.fav{
+    font-size: 40px;
+    margin: 0 10px;
+    background-color: grey;
+    color: aqua;
+    padding: 10px;
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
